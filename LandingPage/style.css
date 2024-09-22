@@ -1,0 +1,354 @@
+
+body
+{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+header {
+    width: 100vw; 
+    height: 100vh; 
+    overflow: hidden;
+    position: relative;
+    background-image: url(image/logo.jpg);
+    background-size:cover; 
+     background-position:center; 
+   background-repeat: no-repeat;   
+   display: flex;
+   justify-content: space-between;
+   /* padding: 0 20px; */
+   margin: top 40vh;
+}
+
+.navbar {
+    display: flex;
+    right: 10px;
+    justify-content: space-between; 
+    align-items:flex-start;
+    /* position: absolute; */
+    padding-top: 40px;
+    padding: 40px;
+    margin-left: auto;
+   
+}
+
+
+.navbar .nav-links {
+    display: flex;
+    gap: 20px;  
+    
+}
+
+.navbar a {
+    color: #fff;  
+    text-decoration: none; 
+    margin: 0 15px; 
+    font-size: 25px;  
+}
+ .logo {
+    width: 150px;  
+    position:absolute;
+}
+.text-overlay {
+    position: absolute;
+    top: 80px; 
+    left: 50px;  
+    color: rgba(255, 255, 255, 0.81);
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border:2px ;
+    width: 800px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+h2{
+    color: rgb(147, 97, 4);
+}
+
+.chef
+{
+    width: 94vw;
+    height: 60vh;
+    background-color: #e4c497;
+    text-align: center;
+    padding: 50px;
+    color:rgba(185, 124, 11, 0.773) ;
+}
+.chef h1 {
+    font-size: 48px; 
+    margin-bottom: 10px; 
+    font-family: 'Montserrat', sans-serif; 
+    /* color: #b22222; Color for heading */
+}
+.chef h6
+{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #cc8028;
+} 
+.chef h5 {
+    font-size: 25px;  
+    font-family: 'Open Sans', sans-serif;  
+    margin: 0;  
+    color: #555;  
+    max-width: 700px;  
+    margin: 0 auto;  
+}
+.chef-image {
+    width: 150px;                                           
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 20px; 
+    border: 3px solid #cc8028; 
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between; 
+    /* gap: 20px; Space between the images */
+    padding: 20px;
+}
+
+.chef-block {
+    text-align: center;
+    flex: 1; 
+}
+
+.chef-name h5 {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(93, 38, 6, 0.867);
+}
+
+.container
+{
+    display: flex;
+    width: 94vw;
+    height: 45vh;
+    justify-content: flex-start;
+
+    /* text-align: center; */
+    padding: 50px; 
+    gap: 100px;
+    background-color:rgba(241, 79, 9, 0.773) ;
+}
+
+.burger {
+    width: 350px; 
+    height: 350px;  
+    border-radius: 50%;  
+    object-fit: cover;  
+    /* margin-bottom: 20px; Space between the image and the heading */
+    border: 2px solid #fd9825;  
+    
+}
+
+.text {
+    max-width: 1000px;         
+    font-family: 'Arial', sans-serif;  
+    text-align:center;
+    
+}
+
+.text h2 {
+    font-size: 80px;           
+    margin-bottom: 10px;       
+    color: #d93814;
+}
+
+.text p {
+    font-size: 25px;          
+    color: #714507;             
+}
+
+.button {
+    background-color: #fd9825;  
+    color: white;             
+    border: none;               
+    padding: 15px 30px;        
+    font-size: 18px;           
+    font-weight: bold;          
+    border-radius: 50px;        
+    cursor: pointer;            
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);  
+    text-transform: uppercase; 
+}
+
+.button:hover {
+    background-color: #f2690a;  
+    transform: scale(1.05);     
+}
+
+.button:active {
+    background-color: #d85600;  
+    transform: scale(0.98);     
+}
+
+.button:focus {
+    outline: none;              
+}
+
+
+.container2
+{
+    width: 100vw;
+    height:60vh;
+    background-color: #e4c497;
+}
+
+/* .container3
+{
+    width: 100vw;
+    height:60vh;
+   
+} */
+
+.container4
+{
+    width: 100vw;
+    height:40vh;
+   
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 20px;
+    min-width: 200px; 
+}
+
+.footer-column h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-column p,
+.footer-column ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    background-color: #222;
+    padding: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+.container2
+{
+    width: 94vw;
+    height: 60vh;
+    background-color: #e4c497;
+    text-align: center;
+    padding: 50px;
+    color:rgba(185, 124, 11, 0.773) ;
+}
+.container2 h1 {
+    font-size: 48px; 
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif; 
+    /* color: #b22222; Color for heading */
+}
+.container2 h6
+{
+    font-size: 20px;
+    margin-top: 5px;
+    color: #d54807;
+} 
+.container2 h5 {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif; 
+    margin: 0; 
+    color: #555; 
+    max-width: 700px; 
+    margin: 0 auto; 
+}
+.burger-image {
+    width: 180px; 
+    height: 180px;  
+    border-radius: 50%;  
+    object-fit: cover;  
+    margin-bottom: 20px; 
+    border: 3px solid #cc8028;
+}
+
+.container3 {
+    width: 100vw;
+    height: 60vh;
+    background-color: rgba(241, 79, 9, 0.773);
+    display: flex;            
+    justify-content: center;   
+    align-items: center;       
+    padding: 20px;            
+    box-sizing: border-box;     
+}
+
+.text1 {
+
+    max-width: 70%;            
+    font-family: 'Arial';      
+    text-align: center;        
+}
+
+.text1 h1 {
+    font-size: 2.5rem;          
+    margin-bottom: 15px;        
+    color: #ba2c0d;             
+}
+
+.text1 h5 {
+    font-size: 1rem;           
+    line-height: 1.6;           
+    margin: 0;                  
+    color: #632905;
+}
